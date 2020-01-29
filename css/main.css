@@ -52,8 +52,8 @@ body{background-image: url("../images/event1.jpeg");
     ;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px blueviolet;
-}
+    box-shadow: 3px 3px 3px 3px red;}
+
 .auth-signup img{
     height: 300px;
 
@@ -64,5 +64,5 @@ body{background-image: url("../images/event1.jpeg");
 }
 .content-title{
     text-align: center;
-    color: black;
+    color: black
 }

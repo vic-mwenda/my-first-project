@@ -14,7 +14,7 @@
     <title>Homepage</title>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-danger">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: black">
     <a class="navbar-brand" href="index.html">
         <img src="images/logo2.png" style="height: 40px" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +24,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html" style="color: white">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.html">about</a>
+                <a class="nav-link" href="about.html"style="color: white">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="signup.html">sign up</a>
+                <a class="nav-link" href="signup.html"style="color: white">sign up</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="">log in</a>
+                <a class="nav-link" href=""style="color: white">log in</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -57,10 +57,33 @@
         </form>
     </div>
 </nav>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4" style="padding-top: 65px">
+            <form action="">
+                <fieldset class="auth-signup">
+                    <div class="form-group">
+                        <div class="auth-img">
+                            <img src="images/logo2.png"  style="height: 50px;padding-left: 80px" alt="">
+                        </div>
+                        <h3 class="content-title">log in</h3>
+                        <div class="form-group">
+                        <label for="">email</label>
+                        <input type="email" name="email" class="form-control"></div>
+                    <div class="form-group">
+                        <label for="">password</label>
+                        <input type="password" name="password" class="form-control"></div>
+                    <br> <button class="btn btn-danger" style="width: 40vh">sign up</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="col col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+    </div>
+</div>
 
-<footer>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!</p>
-</footer>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
