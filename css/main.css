@@ -1,4 +1,4 @@
-body{
+body{background-image: url("../images/event1.jpeg");
 
 }
 
@@ -46,4 +46,23 @@ body{
     height: 78vh;
     padding-top: 70px;
 
+}
+/*styling sign up form*/
+.auth-signup{
+    ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px blueviolet;
+}
+.auth-signup img{
+    height: 300px;
+
+    border-radius: 5%;
+}
+.form-group{
+    color: white;
+}
+.content-title{
+    text-align: center;
+    color: black;
 }
